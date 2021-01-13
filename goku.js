@@ -1,6 +1,6 @@
 class Goku {
     constructor(game) {
-        Object.assign(this, {game});
+        //Object.assign(this, {game});
 
         this.spritesheet = ASSET_MANAGER.getAsset("./dbz.png");
 
