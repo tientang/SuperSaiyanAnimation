@@ -9,6 +9,6 @@ ASSET_MANAGER.downloadAll(function () {
 	var ctx = canvas.getContext('2d');
 
 	gameEngine.init(ctx);
-	gameEngine.addEntity(new Goku(gameEngine));
+	gameEngine.addEntity(new Goku(this.gameEngine));
 	gameEngine.start();
 });
