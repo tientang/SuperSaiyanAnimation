@@ -8,7 +8,7 @@ class Goku {
         
                                                           // x, y, width, height, frameCount, frameDuration, spacing, reverse, loop
         //this.animations.push(new Animator(this.spritesheet, 60, 125, 45, 75, 6, 1, 3.25, false, true));
-        this.animations.push(new Animator(this.spritesheet, 57, 422, 50, 60, 5, 1, 3.5, false, true));
+        this.animations.push(new Animator(this.spritesheet, 57, 422, 48.5, 60, 5, 0.5, 3.5, false, true));
     };
 
     update() {
