@@ -8,7 +8,7 @@ class Goku {
         
                                                           // x, y, width, height, frameCount, frameDuration, spacing, reverse, loop
         //this.animations.push(new Animator(this.spritesheet, 60, 125, 45, 75, 6, 1, 3.25, false, true));
-        this.animations.push(new Animator(this.spritesheet, 355, 105, 50, 85, 5, 1, 7.5, false, true));
+        this.animations.push(new Animator(this.spritesheet, 57, 422, 50, 60, 5, 1, 3.5, false, true));
     };
 
     update() {
@@ -17,6 +17,5 @@ class Goku {
 
     draw(ctx) {
         this.animations[0].drawFrame(this.game.clockTick, ctx, 150, 150, 5);
-        //this.animations[1].drawFrame(this.game.clockTick, ctx, 175, 150, 5);
     };
 }
