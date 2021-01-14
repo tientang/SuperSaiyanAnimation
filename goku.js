@@ -17,6 +17,6 @@ class Goku {
 
     draw(ctx) {
         this.animations[0].drawFrame(this.game.clockTick, ctx, 150, 150, 5);
-        //this.animations[1].drawFrame(this.game.clockTick, ctx, 150, 150, 5);
+        this.animations[1].drawFrame(this.game.clockTick, ctx, 175, 150, 5);
     };
 }
