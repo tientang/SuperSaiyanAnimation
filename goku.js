@@ -6,7 +6,7 @@ class Goku {
 
         this.animations = [];
         
-        this.animations.push(new Animator(this.spritesheet, 60, 130, 38, 60, 11, 15, 5, false, true));
+        this.animations.push(new Animator(this.spritesheet, 60, 130, 40, 70, 11, 2, 7, false, true));
     };
 
     update() {
